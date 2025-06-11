@@ -15,5 +15,10 @@ As for the person behind this account,
 - 📖 My hobbies include programming, making music, writing stories and designing levels.
 - 🤔 Currently learning C, JavaScript, Python.
 
+## 📖 Our resources 📖
+- [JCubeWare LinkedIn](https://www.linkedin.com/in/matejsdev/)
+- [JCubeWare Website](https://jcubeware.com)
+- [JCubeWare Coding Convention](CodeSpecification.md)
+
 ## 🖥️  Projects  🖥️
 (This list will be updated as they are progressively uploaded and updated)
