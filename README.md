@@ -32,3 +32,4 @@ As for the person behind this account,
 
 - [JCubeMakefile](https://github.com/JCubeWare/JCubeMakefile)
 - [JCubeLogger](https://github.com/JCubeWare/JCubeLogger)
+- [JCubeConfig](https://github.com/JCubeWare/JCubeConfig)
