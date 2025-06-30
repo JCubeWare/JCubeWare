@@ -15,6 +15,8 @@ If you have Windows, you may get a virtual machine or use WSL
 Every file header should have this entire comment on top.
 If in C, put the header between the comment start and commend end symbols.
 
+Leave one empty line underneath the header.
+
 ```python
            #################################
           ###                          #####
@@ -48,6 +50,15 @@ If in C, put the header between the comment start and commend end symbols.
 ```
 
 ## Formatting
+
+### File Naming
+
+File naming is in Pascal Case:
+
+```
+TestProgram.c
+StringFunctions.h
+```
 
 ### Whitespace
 
@@ -163,8 +174,8 @@ like so. In this case, the space between the if and parenthesis is not required.
 ```c
 if
 (
-	(LongerIf == 1) &&
-	(!ThisIfHasASingleLine)
+	(LongerIf == 1)
+	&& (!ThisIfHasASingleLine)
 )
 	DoStuff();
 ```
@@ -282,6 +293,17 @@ int XPosition;
 int YPosition;
 int ZPosition;
 ```
+
+The variables should also be separated from the code if they are in a function.
+One line is enough
+
+```c
+int TestVariable;
+int AnotherOne;
+
+TestProject_DoStuff();
+```
+
 ### Naming
 
 The name of the variables should be concise and have a point.
@@ -349,9 +371,26 @@ union TestProject_Value
 }
 ```
 
+### Enums
+
+To let the user know that it's an enumerated value, we use the "_e" suffix.
+Every enum must end with a member that has the context, name of the enum and 
+`_COUNT_` at the end.
+
+To separate enums and defines between each other, enums have the start context
+with normal formatting and the rest with only uppercase characters.
+
+```c
+enum TestProject_ReturnState_e
+{
+	TestProject_OK,
+	TestProject_BAD,
+	TestProject_RETURNSTATE_COUNT_ // This must be always last
+};
+```
+
 ### Custom types
 
-This is the one specific exclusion for our naming.
 To let the user know that it's a custom type, we use the POSIX suffix.
 
 Please keep in mind that the struct itself is best handled outside of
