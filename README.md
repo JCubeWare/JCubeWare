@@ -31,5 +31,4 @@ As for the person behind this account,
 (This list will be updated as they are progressively uploaded and updated)
 
 - [JCubeMakefile](https://github.com/JCubeWare/JCubeMakefile)
-- [JCubeLogger](https://github.com/JCubeWare/JCubeLogger)
-- [JCubeConfig](https://github.com/JCubeWare/JCubeConfig)
+- [JCubeCode](https://github.com/JCubeWare/JCubeCode)
