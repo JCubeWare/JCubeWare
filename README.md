@@ -1,4 +1,4 @@
-![JCubeWare_Logo](https://jcubeware.com/Public/Images/JCubeWareBanner.png)
+![JCubeWare_Logo](https://jcubeware.com/Public/Images/Banner.png)
 
 Hello there!
 
