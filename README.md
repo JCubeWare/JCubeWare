@@ -9,5 +9,7 @@
 </p>
 </div>
 
-Welcome to the official GitHub page for **JCubeWare** and it's affiliated products, 
+Welcome to the GitHub page for **JCubeWare** and it's affiliated products, 
 projects and other publicly available content.
+
+This repository is now superceeded by our self hosted git at https://dev.jcubeware.com
