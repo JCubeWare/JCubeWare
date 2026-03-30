@@ -12,4 +12,7 @@
 Welcome to the GitHub page for **JCubeWare** and it's affiliated products, 
 projects and other publicly available content.
 
-This repository is now superceeded by our self hosted git at https://dev.jcubeware.com
+This repository is now replaced by our self hosted git instance at https://dev.jcubeware.com
+Follow there for the most recent versions.
+
+Thank you for understanding and have a nice day!
